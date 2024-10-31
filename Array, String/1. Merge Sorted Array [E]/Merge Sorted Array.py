@@ -8,6 +8,7 @@ class Solution:
             else:
                 nums1[m - 1 + n] = nums2[n - 1]
                 n -= 1
+
         if n > 0:
             nums1[:n] = nums2[:n]
 
